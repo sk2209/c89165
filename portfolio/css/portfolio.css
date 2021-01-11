@@ -1,0 +1,85 @@
+
+
+
+body{
+background-image: url("https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80");
+background-size: cover;
+margin: 0 auto;
+overflow:auto;
+width: max-content;
+}
+
+.person{
+    
+ 
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: fit-content;
+    padding: 30px;
+    text-align: center;
+    margin-top: 150px;
+    
+    
+    
+    
+}
+/*.container-1{
+margin: 0 auto;
+*/
+
+
+img{
+    border-radius: 100px;
+    background-size: cover;
+}
+
+    
+
+
+
+.insta,.fb,.twitter,.linkedin{
+    font-family: 'Roboto';
+   /* padding-left: 10px;*/
+    font-size: 20px;
+    color: red;
+
+
+}
+
+
+.v{
+    background-color:rgb(130, 137, 238);
+    margin: 0 auto;
+     display: flex;
+    height: 250px;
+    width: 250px;
+    margin-right: 30px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 250px;
+    left: 1300px;
+
+    
+    
+
+}
+.social{
+    
+    display: flex;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-left: 50px;
+   
+   
+    
+}
+.insta:hover,.fb:hover,.twitter:hover,.linkedin:hover{
+    transform: translate(-20%,-20%);
+    color: blanchedalmond;
+
+}
